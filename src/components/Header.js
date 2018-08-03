@@ -58,7 +58,7 @@ class Header extends Component {
               <NavLink to="box-shadow" activeClassName="active">Box-shadow</NavLink>
             </li>
             <li className="grid__col-auto">
-              <NavLink to="css-gradient" activeClassName="active">CSS-gradient</NavLink>
+              <NavLink to="gradient" activeClassName="active">Gradient</NavLink>
             </li>
           </Menu>
         </nav>
