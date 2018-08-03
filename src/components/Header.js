@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Logo = styled.h1`
-  font-size: 33px;
+  font-size: 28px;
   font-weight: 300;
   a {
     color: inherit;
@@ -69,8 +69,10 @@ class Header extends Component {
 
 export default styled(Header)`
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 9999;
   align-items: center;
-  padding: 15px 35px;
+  padding: 20px 35px;
   background: var(--header-bg);
 `;
